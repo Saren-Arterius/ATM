@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="hardwares.ATMPanel">
+  <grid id="27dc6" binding="mainPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="1227" width="600" height="640"/>
+    </constraints>
+    <properties>
+      <background color="-16777216"/>
+      <foreground color="-16777216"/>
+      <minimumSize width="480" height="592"/>
+      <opaque value="true"/>
+      <preferredSize width="480" height="592"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="bd6c8" binding="screenPanel" layout-manager="GridBagLayout">
+        <constraints border-constraint="North"/>
+        <properties>
+          <background color="-16738680"/>
+          <minimumSize width="-1" height="320"/>
+          <preferredSize width="-1" height="320"/>
+          <requestFocusEnabled value="true"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="637ec" class="javax.swing.JButton" binding="lbButton">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="100" height="60"/>
+              </grid>
+              <gridbag weightx="1.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-16738680"/>
+              <borderPainted value="false"/>
+              <enabled value="false"/>
+              <font name="Roboto" size="16" style="0"/>
+              <foreground color="-1"/>
+              <minimumSize width="-1" height="60"/>
+              <preferredSize width="-1" height="60"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="939eb" class="javax.swing.JButton" binding="rtButton">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="100" height="60"/>
+              </grid>
+              <gridbag weightx="1.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-16738680"/>
+              <borderPainted value="false"/>
+              <enabled value="false"/>
+              <font name="Roboto" size="16" style="0"/>
+              <foreground color="-1"/>
+              <minimumSize width="-1" height="60"/>
+              <preferredSize width="-1" height="60"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="68019" class="javax.swing.JLabel" binding="textDisplay">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="4" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="-1" height="200"/>
+              </grid>
+              <gridbag weightx="0.0" weighty="1.0"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <font name="Roboto" size="24" style="0"/>
+              <foreground color="-1"/>
+              <minimumSize width="600" height="300"/>
+            </properties>
+          </component>
+          <component id="195c0" class="javax.swing.JButton" binding="rbButton">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="100" height="60"/>
+              </grid>
+              <gridbag weightx="1.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-16738680"/>
+              <borderPainted value="false"/>
+              <enabled value="false"/>
+              <font name="Roboto" size="16" style="0"/>
+              <foreground color="-1"/>
+              <minimumSize width="-1" height="60"/>
+              <preferredSize width="-1" height="60"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="c46a0" class="javax.swing.JButton" binding="ltButton">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="100" height="60"/>
+              </grid>
+              <gridbag weightx="1.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-16738680"/>
+              <borderPainted value="false"/>
+              <enabled value="false"/>
+              <font name="Roboto" size="16" style="0"/>
+              <foreground color="-1"/>
+              <minimumSize width="-1" height="60"/>
+              <preferredSize width="-1" height="60"/>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="c5448" binding="inputPanel" layout-manager="GridBagLayout">
+        <constraints border-constraint="Center"/>
+        <properties>
+          <background color="-1118482"/>
+          <minimumSize width="0" height="32"/>
+          <preferredSize width="0" height="32"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="e4737" class="javax.swing.JLabel" binding="inputField">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag top="0" left="0" bottom="0" right="8" weightx="1.0" weighty="1.0"/>
+            </constraints>
+            <properties>
+              <font name="Roboto" size="16" style="0"/>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="c7677" binding="keypadPanel" layout-manager="GridBagLayout">
+        <constraints border-constraint="South"/>
+        <properties>
+          <background color="-14273992"/>
+          <focusable value="true"/>
+          <foreground color="-14273992"/>
+          <opaque value="true"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="99e54" class="javax.swing.JButton" binding="a7Button">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="80" height="50"/>
+              </grid>
+              <gridbag weightx="1.0" weighty="1.0"/>
+            </constraints>
+            <properties>
+              <background color="-14273992"/>
+              <borderPainted value="false"/>
+              <contentAreaFilled value="true"/>
+              <font name="Roboto" size="24" style="0"/>
+              <foreground color="-1"/>
+              <minimumSize width="40" height="60"/>
+              <opaque value="true"/>
+              <preferredSize width="40" height="60"/>
+              <text value="7"/>
+            </properties>
+          </component>
+          <component id="2ff90" class="javax.swing.JButton" binding="a0Button">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="80" height="50"/>
+              </grid>
+              <gridbag weightx="1.0" weighty="1.0"/>
+            </constraints>
+            <properties>
+              <background color="-14273992"/>
+              <borderPainted value="false"/>
+              <contentAreaFilled value="true"/>
+              <font name="Roboto" size="24" style="0"/>
+              <foreground color="-1"/>
+              <minimumSize width="40" height="60"/>
+              <opaque value="true"/>
+              <preferredSize width="40" height="60"/>
+              <text value="0"/>
+            </properties>
+          </component>
+          <component id="9901e" class="javax.swing.JButton" binding="cancelButton">
+            <constraints>
+              <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="80" height="50"/>
+              </grid>
+              <gridbag weightx="1.0" weighty="1.0"/>
+            </constraints>
+            <properties>
+              <background color="-13154481"/>
+              <borderPainted value="false"/>
+              <font name="Roboto" size="24" style="0"/>
+              <foreground color="-1"/>
+              <minimumSize width="100" height="60"/>
+              <preferredSize width="100" height="60"/>
+              <text value="CANCEL"/>
+            </properties>
+          </component>
+          <component id="52c87" class="javax.swing.JButton" binding="a4Button" default-binding="true">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="80" height="50"/>
+              </grid>
+              <gridbag weightx="1.0" weighty="1.0"/>
+            </constraints>
+            <properties>
+              <background color="-14273992"/>
+              <borderPainted value="false"/>
+              <contentAreaFilled value="true"/>
+              <font name="Roboto" size="24" style="0"/>
+              <foreground color="-1"/>
+              <minimumSize width="40" height="60"/>
+              <opaque value="true"/>
+              <preferredSize width="40" height="60"/>
+              <text value="4"/>
+            </properties>
+          </component>
+          <component id="6990c" class="javax.swing.JButton" binding="a1Button">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="80" height="50"/>
+              </grid>
+              <gridbag weightx="1.0" weighty="1.0"/>
+            </constraints>
+            <properties>
+              <background color="-14273992"/>
+              <borderPainted value="false"/>
+              <contentAreaFilled value="true"/>
+              <font name="Roboto" size="24" style="0"/>
+              <foreground color="-1"/>
+              <minimumSize width="40" height="60"/>
+              <opaque value="true"/>
+              <preferredSize width="40" height="60"/>
+              <text value="1"/>
+            </properties>
+          </component>
+          <component id="895f2" class="javax.swing.JButton" binding="a8Button">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="80" height="50"/>
+              </grid>
+              <gridbag weightx="1.0" weighty="1.0"/>
+            </constraints>
+            <properties>
+              <background color="-14273992"/>
+              <borderPainted value="false"/>
+              <contentAreaFilled value="true"/>
+              <font name="Roboto" size="24" style="0"/>
+              <foreground color="-1"/>
+              <minimumSize width="40" height="60"/>
+              <opaque value="true"/>
+              <preferredSize width="40" height="60"/>
+              <text value="8"/>
+            </properties>
+          </component>
+          <component id="7ac7b" class="javax.swing.JButton" binding="a5Button" default-binding="true">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="80" height="50"/>
+              </grid>
+              <gridbag weightx="1.0" weighty="1.0"/>
+            </constraints>
+            <properties>
+              <background color="-14273992"/>
+              <borderPainted value="false"/>
+              <contentAreaFilled value="true"/>
+              <font name="Roboto" size="24" style="0"/>
+              <foreground color="-1"/>
+              <minimumSize width="40" height="60"/>
+              <opaque value="true"/>
+              <preferredSize width="40" height="60"/>
+              <text value="5"/>
+            </properties>
+          </component>
+          <component id="c30aa" class="javax.swing.JButton" binding="a2Button">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="80" height="50"/>
+              </grid>
+              <gridbag weightx="1.0" weighty="1.0"/>
+            </constraints>
+            <properties>
+              <background color="-14273992"/>
+              <borderPainted value="false"/>
+              <contentAreaFilled value="true"/>
+              <font name="Roboto" size="24" style="0"/>
+              <foreground color="-1"/>
+              <minimumSize width="40" height="60"/>
+              <opaque value="true"/>
+              <preferredSize width="40" height="60"/>
+              <text value="2"/>
+            </properties>
+          </component>
+          <component id="53467" class="javax.swing.JButton" binding="a9Button">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="80" height="50"/>
+              </grid>
+              <gridbag weightx="1.0" weighty="1.0"/>
+            </constraints>
+            <properties>
+              <background color="-14273992"/>
+              <borderPainted value="false"/>
+              <contentAreaFilled value="true"/>
+              <font name="Roboto" size="24" style="0"/>
+              <foreground color="-1"/>
+              <minimumSize width="40" height="60"/>
+              <opaque value="true"/>
+              <preferredSize width="40" height="60"/>
+              <text value="9"/>
+            </properties>
+          </component>
+          <component id="7ccd0" class="javax.swing.JButton" binding="a6Button" default-binding="true">
+            <constraints>
+              <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="80" height="50"/>
+              </grid>
+              <gridbag weightx="1.0" weighty="1.0"/>
+            </constraints>
+            <properties>
+              <background color="-14273992"/>
+              <borderPainted value="false"/>
+              <contentAreaFilled value="true"/>
+              <font name="Roboto" size="24" style="0"/>
+              <foreground color="-1"/>
+              <minimumSize width="40" height="60"/>
+              <opaque value="true"/>
+              <preferredSize width="40" height="60"/>
+              <text value="6"/>
+            </properties>
+          </component>
+          <component id="f1403" class="javax.swing.JButton" binding="a3Button">
+            <constraints>
+              <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="80" height="50"/>
+              </grid>
+              <gridbag weightx="1.0" weighty="1.0"/>
+            </constraints>
+            <properties>
+              <background color="-14273992"/>
+              <borderPainted value="false"/>
+              <contentAreaFilled value="true"/>
+              <font name="Roboto" size="24" style="0"/>
+              <foreground color="-1"/>
+              <minimumSize width="40" height="60"/>
+              <opaque value="true"/>
+              <preferredSize width="40" height="60"/>
+              <text value="3"/>
+            </properties>
+          </component>
+          <component id="b85a3" class="javax.swing.JButton" binding="dotButton">
+            <constraints>
+              <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="80" height="50"/>
+              </grid>
+              <gridbag weightx="1.0" weighty="1.0"/>
+            </constraints>
+            <properties>
+              <background color="-14273992"/>
+              <borderPainted value="false"/>
+              <contentAreaFilled value="true"/>
+              <font name="Roboto" size="24" style="0"/>
+              <foreground color="-1"/>
+              <minimumSize width="40" height="60"/>
+              <opaque value="true"/>
+              <preferredSize width="40" height="60"/>
+              <text value="."/>
+            </properties>
+          </component>
+          <component id="7c352" class="javax.swing.JButton" binding="a00Button" default-binding="true">
+            <constraints>
+              <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="80" height="50"/>
+              </grid>
+              <gridbag weightx="1.0" weighty="1.0"/>
+            </constraints>
+            <properties>
+              <background color="-14273992"/>
+              <borderPainted value="false"/>
+              <contentAreaFilled value="true"/>
+              <font name="Roboto" size="24" style="0"/>
+              <foreground color="-1"/>
+              <minimumSize width="40" height="60"/>
+              <opaque value="true"/>
+              <preferredSize width="40" height="60"/>
+              <text value="00"/>
+            </properties>
+          </component>
+          <component id="c82b2" class="javax.swing.JButton" binding="clearButton">
+            <constraints>
+              <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="80" height="50"/>
+              </grid>
+              <gridbag weightx="1.0" weighty="1.0"/>
+            </constraints>
+            <properties>
+              <background color="-13154481"/>
+              <borderPainted value="false"/>
+              <font name="Roboto" size="24" style="0"/>
+              <foreground color="-1"/>
+              <minimumSize width="100" height="60"/>
+              <preferredSize width="100" height="60"/>
+              <text value="CLEAR"/>
+            </properties>
+          </component>
+          <component id="78495" class="javax.swing.JButton" binding="confirmButton">
+            <constraints>
+              <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="80" height="50"/>
+              </grid>
+              <gridbag weightx="1.0" weighty="1.0"/>
+            </constraints>
+            <properties>
+              <background color="-13154481"/>
+              <borderPainted value="false"/>
+              <font name="Roboto" size="24" style="0"/>
+              <foreground color="-1"/>
+              <minimumSize width="100" height="60"/>
+              <preferredSize width="100" height="60"/>
+              <text value="CONFIRM"/>
+            </properties>
+          </component>
+          <component id="d2eeb" class="javax.swing.JButton" binding="emptyButton">
+            <constraints>
+              <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="80" height="50"/>
+              </grid>
+              <gridbag weightx="1.0" weighty="1.0"/>
+            </constraints>
+            <properties>
+              <background color="-13154481"/>
+              <borderPainted value="false"/>
+              <font name="Roboto" size="24" style="0"/>
+              <foreground color="-1"/>
+              <minimumSize width="100" height="60"/>
+              <preferredSize width="100" height="60"/>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
